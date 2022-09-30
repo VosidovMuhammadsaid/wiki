@@ -1,7 +1,7 @@
 import wikipedia
 import telebot
 
-bot = telebot.TeleBot("5029797787:AAECfpsaru2HPn-wo2e4-A3lCWhKST0WbcY")
+bot = telebot.TeleBot("5583816002:AAFB1T6_gmru1gm8snjxjHBcwMGLcrXu8DM")
 
 @bot.message_handler(content_types=['text'])
 def send_echo(message):
